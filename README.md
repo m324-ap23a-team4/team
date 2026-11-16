@@ -3,11 +3,11 @@
 ## Mitglieder
 | Name | Account | Teilgruppe |
 |---|---|---|
-| Aries | @AriesDevlo | A |
+| Andrin Ruegg | @AriesDevlo | A |
 | Karol Jakub | @KarolJakubGroups | A |
 | Marvin Kropf | @MarvinKropf2 | A |
 | Loris Imbrogno | @Lorisimbrogno | B |
-| Cedi | @cedi254 | B |
+| Cedric Fischer | @cedi254 | B |
 
 ## Entscheidungen
 - [Kickoff-Entscheidungen (Ticket #1)](https://github.com/m324-ap23a-team4/team/issues/1)
