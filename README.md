@@ -14,21 +14,21 @@ Dieses Dokument dient der Lehrperson und dem Team als zentraler Einstiegspunkt m
 | **Meeting-Vorlage** | ✍️ [Meeting-Protokoll Vorlage](./docs/meeting-vorlage.md) | Standard-Template zum Kopieren für Check-Ins & Retros |
 | **Entscheidungen** | 🎫 [Ticket #1: Kickoff-Entscheidungen](https://github.com/m324-ap23a-team4/team/issues/1) | Begründete Architekturentscheidungen (closed) |
 | **Vereinbarung** | 🤝 [Vertrag Dev ↔ Ops](./docs/team-vereinbarung.md) | Schnittstellen, DoD, DoR & Arbeitsregeln |
-| **Retrospektiven** | 🔄 [Retrospektiven & Notizen](./docs/retrospektiven.md) | Lessons Learned aus Phase A & B |
+| **Retrospektiven** | ⚠️ [Retrospektiven (Deprecated)](./docs/retrospektiven.md) | Veraltet – Retros finden neu direkt in [meeting-vorlage.md](./docs/meeting-vorlage.md) statt |
 
 ---
 
-## 👥 Mitglieder & Rollen (Phase A & B)
+## 👥 Mitglieder & feste Rollen (Gesamtes Modul)
 
-| Name | GitHub Account | Teilgruppe | Rolle Phase A | Rolle Phase B |
-|---|---|---|---|---|
-| **Loris Imbrogno** | [@Lorisimbrogno](https://github.com/Lorisimbrogno) | B (Ops → Dev) | **Ops Lead & Moderation** | **Dev Lead & Moderation** |
-| **Karol Jakub** | [@KarolJakubGroups](https://github.com/KarolJakubGroups) | A (Dev → Ops) | **Dev Lead** | **Ops Lead** |
-| **Cedric Fischer** | [@cedi254](https://github.com/cedi254) | B (Ops → Dev) | Ops / Protokoll & Timekeeper | Dev / Protokoll & Timekeeper |
-| **Andrin Ruegg** | [@AriesDevlo](https://github.com/AriesDevlo) | A (Dev → Ops) | Dev / Quality & Review Lead | Ops / Quality & Review Lead |
-| **Marvin Kropf** | [@MarvinKropf2](https://github.com/MarvinKropf2) | A (Dev → Ops) | Dev / Docs & Release Manager | Ops / Docs & Release Manager |
+| Name | GitHub Account | Team | Feste Rolle (Gesamtes Modul) |
+|---|---|---|---|
+| **Loris Imbrogno** | [@Lorisimbrogno](https://github.com/Lorisimbrogno) | **Ops** | **Ops Lead & Moderation** |
+| **Cedric Fischer** | [@cedi254](https://github.com/cedi254) | **Ops** | **Ops / Protokoll & Timekeeper** |
+| **Karol Jakub** | [@KarolJakubGroups](https://github.com/KarolJakubGroups) | **Dev** | **Dev Lead** |
+| **Andrin Ruegg** | [@AriesDevlo](https://github.com/AriesDevlo) | **Dev** | **Dev / Quality & Review Lead** |
+| **Marvin Kropf** | [@MarvinKropf2](https://github.com/MarvinKropf2) | **Dev** | **Dev / Docs & Release Manager** |
 
-> **Feste Lead-Verantwortung:** Loris Imbrogno und Karol Jakub bilden durchgehend die technische Leitung des Teams. In Phase A leitet Loris Ops und Karol Dev. Bei Phasenwechsel in Phase B bleiben beide in Lead-Funktion, führen aber spiegelbildlich den neuen Bereich (Loris führt Dev, Karol führt Ops) und coachen den Wissenstransfer.
+> **Hinweis zur Organisation:** Die Zuweisung zu Dev und Ops bleibt über das gesamte Modul fest bestehen (kein Phasenwechsel / Rollentausch). Retrospektiven werden kontinuierlich wöchentlich im Meeting-Protokoll geführt.
 
 ---
 

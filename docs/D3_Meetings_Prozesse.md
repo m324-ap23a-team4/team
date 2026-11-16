@@ -1,7 +1,7 @@
 # D3: Meetings und Arbeitsprozesse
 
 **Team 4:** Immobilienplattform  
-**Gültigkeit:** Modul M324 DevOps (Phase A & B)  
+**Gültigkeit:** Gesamtes Modul M324 DevOps  
 **Board:** [GitHub Projects – M324 Team 4 Board](https://github.com/orgs/m324-ap23a-team4/projects/1)  
 
 ---
@@ -58,23 +58,22 @@ An jedem Unterrichtstag (4 Lektionen) führen wir genau **zwei kurze, zeitlich s
 
 ---
 
-## 3. Rollenverteilung
+## 3. Feste Rollenverteilung (Gesamtes Modul)
 
-Um Effizienz und Verbindlichkeit zu garantieren, sind die Rollen klar aufgeteilt. Zu Beginn von Phase A starten wir mit folgenden festen Zuweisungen:
+Um maximale Effizienz, klare Verantwortlichkeiten und tiefes Fachwissen aufzubauen, behalten wir die Zuweisung von Dev und Ops über das gesamte Modul fest bei. Es gibt keinen Phasenwechsel / Rollentausch.
 
-| Rolle | Person | Hauptverantwortung im Prozess |
-|---|---|---|
-| **Moderation & Ops Lead** | **Loris Imbrogno** | Leitet die Meetings pünktlich ein, führt durch die Agenda, achtet auf aktive Beteiligung aller und koordiniert die Infrastruktur/Deployment-Themen. |
-| **Protokoll & Timekeeper** | **Cedric (cedi254)** | Führt das Meeting-Protokoll (Beschlüsse, Blocker, Action Items) und überwacht die strikte Einhaltung der Timeboxes (15 Min). |
-| **Dev Lead** | **Karol Jakub** | Koordiniert die Entwicklung der Microservices `ms1` und `ms2`, achtet auf Konsistenz der Schnittstellen und Code-Struktur. |
-| **Quality & Review Lead** | **Andrin Rüegg (AriesDevlo)** | Überwacht die Testabdeckung, stellt sicher, dass CI-Pipelines grün sind und Reviews im PR nicht blockieren. |
-| **Docs & Release Manager** | **Marvin Kropf** | Hält die Moduldokumentation im Repo `team` aktuell und bereitet Meilenstein-Releases und Tagging vor. |
+| Rolle | Person | Team | Hauptverantwortung im Prozess |
+|---|---|---|---|
+| **Moderation & Ops Lead** | **Loris Imbrogno** | Ops | Gesamtmoderation der Meetings (Start, Agenda, Timebox), Führung der Infrastruktur, Container-Orchestrierung und Deployments. |
+| **Protokoll & Timekeeper** | **Cedric Fischer** | Ops | Führt das wöchentliche Meeting-Protokoll (Beschlüsse, Blocker, Action Items) und überwacht die Timeboxes. Unterstützt Ops. |
+| **Dev Lead** | **Karol Jakub** | Dev | Führt das Entwicklerteam, koordiniert die Microservices `ms1` und `ms2` und achtet auf Schnittstellen-Konsistenz. |
+| **Quality & Review Lead** | **Andrin Ruegg (AriesDevlo)** | Dev | Überwacht die Testabdeckung, stellt sicher, dass CI-Pipelines grün sind und führt Code-Reviews in PRs durch. |
+| **Docs & Release Manager** | **Marvin Kropf** | Dev | Pflegt die Moduldokumentation im Repo `team` und koordiniert Releases und Versionierung. |
 
-### Feste Lead-Verantwortung & Phasenwechsel (Phase A ↔ Phase B)
-Um kontinuierliche Qualität und Stabilität zu gewährleisten, bilden **Loris Imbrogno** und **Karol Jakub** die durchgehende technische Führung des Teams:
-- **Phase A:** **Loris** ist **Ops Lead** (Infrastruktur/Deployment) und **Karol** ist **Dev Lead** (Microservices ms1 & ms2).
-- **Phase B (beim Rollentausch):** Wenn Teilgruppe A und B planmässig tauschen, bleiben Loris und Karol weiterhin die Leads ihrer Gruppen, tauschen jedoch spiegelbildlich die Fachdisziplinen: **Loris übernimmt den Dev Lead** und **Karol übernimmt den Ops Lead**. Dadurch ist sichergestellt, dass das erarbeitete Wissen nahtlos transferiert wird und beide Bereiche stets erfahrene Führung haben.
-- **Rollenrotation bei Moderation/Protokoll:** Die Rollen für Moderation und Protokoll können zusätzlich rotieren, sodass jedes Mitglied Einblick in alle organisatorischen Abläufe erhält.
+### Feste Lead-Verantwortung
+- **Loris Imbrogno (Ops Lead)** und **Karol Jakub (Dev Lead)** bilden durchgehend die technische Leitung des Teams.
+- Sie stimmen sich vor jedem Check-In kurz bilateral über Schnittstellen (Ports, Umgebungsvariablen, Endpunkte) ab, sodass beide Teams ohne Reibungsverluste Hand in Hand arbeiten.
+- *Organisatorische Rotation:* Um das Abwechslungskriterium zu erfüllen, können Moderation und Protokollführung bei Bedarf zwischen den Mitgliedern rotieren.
 
 ---
 

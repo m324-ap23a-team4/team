@@ -1,21 +1,24 @@
-# Retrospektiven & Notizen
+# Retrospektiven & Notizen [DEPRECATED]
 
-Dieses Dokument sammelt die Retrospektiven am Ende von Phase A und Phase B sowie wöchentliche Erkenntnisse.
-
-## Phase A Retrospektive (Vorlage)
-- **Datum:** 
-- **Teilnehmer:** 
-- **Was lief gut?**
-  - 
-- **Was war herausfordernd?**
-  - 
-- **Konsequenzen für Phase B:**
-  - 
+> **Status: DEPRECATED / VERALTET**  
+> **Hinweis zur Modulorganisation:**  
+> Da der ursprüngliche Phasenwechsel (Phase A / Phase B Rollentausch) gemäss Absprache mit der Lehrperson entfallen ist und die Rollenverteilung (Dev & Ops) über das gesamte Modul fest beibehalten wird, ist dieses separate Phasendokument obsolet.  
+>  
+> **Aktuelle Praxis:**  
+> Unsere Retrospektiven finden nun kontinuierlich am Ende jedes Blocktages als feste 5-Minuten-Mini-Retro im Rahmen des [Meeting-Protokolls (meeting-vorlage.md)](./meeting-vorlage.md) statt.
 
 ---
 
-## Phase B Retrospektive (Vorlage)
-- **Datum:** 
-- **Teilnehmer:** 
-- **Fazit Modulabschluss:**
-  - 
+### Archivierte Vorlage (nicht mehr aktiv verwendet)
+
+#### Phase A Retrospektive (Archiv)
+- **Datum:** -
+- **Teilnehmer:** -
+- **Was lief gut?** -
+- **Was war herausfordernd?** -
+- **Konsequenzen:** -
+
+#### Phase B Retrospektive (Archiv)
+- **Datum:** -
+- **Teilnehmer:** -
+- **Fazit Modulabschluss:** -

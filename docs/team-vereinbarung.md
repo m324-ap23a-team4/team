@@ -2,12 +2,12 @@
 
 Diese Vereinbarung legt die Arbeitsweise, Qualitätskriterien und Schnittstellen zwischen Entwicklung (Dev) und Betrieb (Ops) fest.
 
-## 1. Rollenverteilung
-- **Phase A:**
-  - **Dev (Teilgruppe A):** Hauptverantwortung für `ms1` und `ms2` (Code, Unit Tests, Dockerfile, App-Logik).
-  - **Ops (Teilgruppe B):** Hauptverantwortung für `infra` (Docker Compose, CI/CD-Deployment, Monitoring, Runbook).
-- **Phase B:**
-  - Rollentausch gemäss Modulvorgabe.
+## 1. Feste Rollenverteilung (Gesamtes Modul)
+- **Entwicklerteam (Dev):** Karol Jakub (Dev Lead), Andrin Ruegg, Marvin Kropf.
+  - Hauptverantwortung für `ms1` und `ms2` (Code, Unit Tests, Dockerfile, App-Logik).
+- **Betriebsteam (Ops):** Loris Imbrogno (Ops Lead & Moderation), Cedric Fischer.
+  - Hauptverantwortung für `infra` (Docker Compose, CI/CD-Deployment, Monitoring, Runbook).
+- **Organisation:** Die Rollenverteilung bleibt über die gesamte Moduldauer fest bestehen (kein Phasenwechsel / Rollentausch).
 
 ## 2. Git Workflow & Branching
 1. **Kein direkter Push auf `main`:** Alle Änderungen erfolgen über Feature-Branches (z.B. `feat/user-story-1`, `fix/db-connection`).
