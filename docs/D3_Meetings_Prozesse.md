@@ -70,10 +70,11 @@ Um Effizienz und Verbindlichkeit zu garantieren, sind die Rollen klar aufgeteilt
 | **Quality & Review Lead** | **Andrin Rüegg (AriesDevlo)** | Überwacht die Testabdeckung, stellt sicher, dass CI-Pipelines grün sind und Reviews im PR nicht blockieren. |
 | **Docs & Release Manager** | **Marvin Kropf** | Hält die Moduldokumentation im Repo `team` aktuell und bereitet Meilenstein-Releases und Tagging vor. |
 
-### Rotationskonzept (Abwechslungskriterium)
-Damit jedes Teammitglied unterschiedliche Perspektiven und Verantwortungen kennenlernt:
-- **Phase A (Welle 0–2):** Die Rollen starten in der oben definierten Konstellation.
-- **Phase B (Welle 3–4):** Planmässiger Rollentausch gemäss Modulvorgabe (Dev wird Ops, Ops wird Dev). Dabei rotieren auch die Rollen von Moderation und Protokoll, sodass jeder einmal eine Leitungs- und Protokollfunktion innehatte.
+### Feste Lead-Verantwortung & Phasenwechsel (Phase A ↔ Phase B)
+Um kontinuierliche Qualität und Stabilität zu gewährleisten, bilden **Loris Imbrogno** und **Karol Jakub** die durchgehende technische Führung des Teams:
+- **Phase A:** **Loris** ist **Ops Lead** (Infrastruktur/Deployment) und **Karol** ist **Dev Lead** (Microservices ms1 & ms2).
+- **Phase B (beim Rollentausch):** Wenn Teilgruppe A und B planmässig tauschen, bleiben Loris und Karol weiterhin die Leads ihrer Gruppen, tauschen jedoch spiegelbildlich die Fachdisziplinen: **Loris übernimmt den Dev Lead** und **Karol übernimmt den Ops Lead**. Dadurch ist sichergestellt, dass das erarbeitete Wissen nahtlos transferiert wird und beide Bereiche stets erfahrene Führung haben.
+- **Rollenrotation bei Moderation/Protokoll:** Die Rollen für Moderation und Protokoll können zusätzlich rotieren, sodass jedes Mitglied Einblick in alle organisatorischen Abläufe erhält.
 
 ---
 

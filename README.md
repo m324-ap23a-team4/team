@@ -18,17 +18,17 @@ Dieses Dokument dient der Lehrperson und dem Team als zentraler Einstiegspunkt m
 
 ---
 
-## 👥 Mitglieder & Rollen (Phase A)
+## 👥 Mitglieder & Rollen (Phase A & B)
 
-| Name | GitHub Account | Teilgruppe | Rolle Phase A |
-|---|---|---|---|
-| **Loris Imbrogno** | [@Lorisimbrogno](https://github.com/Lorisimbrogno) | B | **Ops / Moderation & Ops Lead** |
-| **Cedric Fischer** | [@cedi254](https://github.com/cedi254) | B | **Ops / Protokoll & Timekeeper** |
-| **Karol Jakub** | [@KarolJakubGroups](https://github.com/KarolJakubGroups) | A | **Dev / Dev Lead** |
-| **Andrin Ruegg** | [@AriesDevlo](https://github.com/AriesDevlo) | A | **Dev / Quality & Review Lead** |
-| **Marvin Kropf** | [@MarvinKropf2](https://github.com/MarvinKropf2) | A | **Dev / Docs & Release Manager** |
+| Name | GitHub Account | Teilgruppe | Rolle Phase A | Rolle Phase B |
+|---|---|---|---|---|
+| **Loris Imbrogno** | [@Lorisimbrogno](https://github.com/Lorisimbrogno) | B (Ops → Dev) | **Ops Lead & Moderation** | **Dev Lead & Moderation** |
+| **Karol Jakub** | [@KarolJakubGroups](https://github.com/KarolJakubGroups) | A (Dev → Ops) | **Dev Lead** | **Ops Lead** |
+| **Cedric Fischer** | [@cedi254](https://github.com/cedi254) | B (Ops → Dev) | Ops / Protokoll & Timekeeper | Dev / Protokoll & Timekeeper |
+| **Andrin Ruegg** | [@AriesDevlo](https://github.com/AriesDevlo) | A (Dev → Ops) | Dev / Quality & Review Lead | Ops / Quality & Review Lead |
+| **Marvin Kropf** | [@MarvinKropf2](https://github.com/MarvinKropf2) | A (Dev → Ops) | Dev / Docs & Release Manager | Ops / Docs & Release Manager |
 
-> **Hinweis zur Rollenrotation:** In Phase B tauschen Teilgruppe A und B die Rollen gemäss Modulvorgabe (Dev wird Ops, Ops wird Dev).
+> **Feste Lead-Verantwortung:** Loris Imbrogno und Karol Jakub bilden durchgehend die technische Leitung des Teams. In Phase A leitet Loris Ops und Karol Dev. Bei Phasenwechsel in Phase B bleiben beide in Lead-Funktion, führen aber spiegelbildlich den neuen Bereich (Loris führt Dev, Karol führt Ops) und coachen den Wissenstransfer.
 
 ---
 
