@@ -1,28 +1,69 @@
-# Team 4: Immobilienplattform
+# Team 4: Immobilienplattform (M324 DevOps)
 
-## Mitglieder
-| Name | Account | Teilgruppe | Rolle |
+Willkommen im zentralen Übersichts-Repository von **Team 4** für das Modul **M324**.  
+Dieses Dokument dient der Lehrperson und dem Team als zentraler Einstiegspunkt mit Schnellzugriff auf alle Repositories, Dokumente und Theorieabgaben.
+
+---
+
+## ⚡ Schnellzugriff / Quick Links
+
+| Bereich | Dokument / Ressource | Beschreibung / Zweck |
+|---|---|---|
+| **Kanban-Board** | 📌 [M324 Team 4 Board](https://github.com/orgs/m324-ap23a-team4/projects/1) | Live-Aufgabenverwaltung, Backlog & Sprints |
+| **Meetings & Prozesse** | 📋 [D3: Meetings und Arbeitsprozesse](./docs/D3_Meetings_Prozesse.md) | Verbindliche Meeting-Struktur, Timeboxes & Rollen |
+| **Meeting-Vorlage** | ✍️ [Meeting-Protokoll Vorlage](./docs/meeting-vorlage.md) | Standard-Template zum Kopieren für Check-Ins & Retros |
+| **Entscheidungen** | 🎫 [Ticket #1: Kickoff-Entscheidungen](https://github.com/m324-ap23a-team4/team/issues/1) | Begründete Architekturentscheidungen (closed) |
+| **Vereinbarung** | 🤝 [Vertrag Dev ↔ Ops](./docs/team-vereinbarung.md) | Schnittstellen, DoD, DoR & Arbeitsregeln |
+| **Retrospektiven** | 🔄 [Retrospektiven & Notizen](./docs/retrospektiven.md) | Lessons Learned aus Phase A & B |
+
+---
+
+## 👥 Mitglieder & Rollen (Phase A)
+
+| Name | GitHub Account | Teilgruppe | Rolle Phase A |
 |---|---|---|---|
-| Andrin Ruegg | @AriesDevlo | A | Dev / Quality & Review Lead |
-| Karol Jakub | @KarolJakubGroups | A | Dev / Dev Lead |
-| Marvin Kropf | @MarvinKropf2 | A | Dev / Docs & Release Manager |
-| Loris Imbrogno | @Lorisimbrogno | B | Ops / Moderation & Ops Lead |
-| Cedric Fischer | @cedi254 | B | Ops / Protokoll & Timekeeper |
+| **Loris Imbrogno** | [@Lorisimbrogno](https://github.com/Lorisimbrogno) | B | **Ops / Moderation & Ops Lead** |
+| **Cedric Fischer** | [@cedi254](https://github.com/cedi254) | B | **Ops / Protokoll & Timekeeper** |
+| **Karol Jakub** | [@KarolJakubGroups](https://github.com/KarolJakubGroups) | A | **Dev / Dev Lead** |
+| **Andrin Ruegg** | [@AriesDevlo](https://github.com/AriesDevlo) | A | **Dev / Quality & Review Lead** |
+| **Marvin Kropf** | [@MarvinKropf2](https://github.com/MarvinKropf2) | A | **Dev / Docs & Release Manager** |
 
-## Dokumentation & Prozesse
-- [D3: Meetings und Arbeitsprozesse](./docs/D3_Meetings_Prozesse.md)
-- [Meeting-Vorlage (Protokoll)](./docs/meeting-vorlage.md)
-- [Kickoff-Entscheidungen (Ticket #1)](https://github.com/m324-ap23a-team4/team/issues/1)
-- [Vertrag Dev ↔ Ops](./docs/team-vereinbarung.md) (ab Phase A)
-- [Retrospektiven & Notizen](./docs/retrospektiven.md)
+> **Hinweis zur Rollenrotation:** In Phase B tauschen Teilgruppe A und B die Rollen gemäss Modulvorgabe (Dev wird Ops, Ops wird Dev).
 
-## Theorie
-- [Übersicht und Aufteilung](./theorie/README.md)
+---
 
-## System
+## 📚 Theorie-Abgaben ([theorie/](./theorie/))
+
+Alle Theoriearbeiten der vier Blöcke B1 bis B4 sind vollständig ausgearbeitet und abgelegt:
+
+| Block | Thema | Datei | Zuständig | Reviewer |
+|---|---|---|---|---|
+| **B1** | DevOps-Kultur und Umgang mit Störungen | 📄 [B1_DevOps_Kultur.md](./theorie/B1_DevOps_Kultur.md) | Loris Imbrogno | Cedric Fischer |
+| **B2** | Prozesse und Zusammenarbeit | 📄 [B2_Prozesse_Zusammenarbeit.md](./theorie/B2_Prozesse_Zusammenarbeit.md) | Cedric Fischer | Andrin Ruegg |
+| **B3** | Continuous Integration und Artefakte | 📄 [B3_CI_Artefakte.md](./theorie/B3_CI_Artefakte.md) | Andrin Ruegg | Karol Jakub |
+| **B4** | Continuous Delivery, Umgebungen und Deployment | 📄 [B4_CD_Betrieb.md](./theorie/B4_CD_Betrieb.md) | Karol / Marvin | Marvin Kropf |
+| **Übersicht** | Kriterien & Review-Tabelle | 📄 [theorie/README.md](./theorie/README.md) | Team 4 | Alle |
+
+---
+
+## 🛠️ Repositories & System-Übersicht
+
+Unsere Microservices-Architektur ist in 4 Repositories innerhalb der Organisation [**`m324-ap23a-team4`**](https://github.com/m324-ap23a-team4) aufgeteilt:
+
+| Repository | Zweck | Status / Pipeline | Hauptverantwortung |
+|---|---|---|---|
+| [**`team`**](https://github.com/m324-ap23a-team4/team) | Team-Organisation, Theorie, Docs & Retros | Aktiv | Alle Mitglieder (Write) |
+| [**`ms1`**](https://github.com/m324-ap23a-team4/ms1) | Microservice 1: Ortschaften (Web-API) | [CI Actions](https://github.com/m324-ap23a-team4/ms1/actions) (✓ Grün) | Teilgruppe A (Dev) |
+| [**`ms2`**](https://github.com/m324-ap23a-team4/ms2) | Microservice 2: Immobilien (Web-API) | [CI Actions](https://github.com/m324-ap23a-team4/ms2/actions) | Teilgruppe A (Dev) |
+| [**`infra`**](https://github.com/m324-ap23a-team4/infra) | Docker Orchestrierung & Runbook | Bereit für Phase A | Teilgruppe B (Ops) |
+
+---
+
+## 📌 System & Live-Links
 | Komponente | Link |
 |---|---|
-| Board | [GitHub Project Board (M324 Team 4 Board)](https://github.com/orgs/m324-ap23a-team4/projects/1) |
-| Repositories | [ms1](https://github.com/m324-ap23a-team4/ms1) · [ms2](https://github.com/m324-ap23a-team4/ms2) · [infra](https://github.com/m324-ap23a-team4/infra) |
-| Produktion | (ab Phase A) |
-| Runbook | (ab Phase A) |
+| **Kanban Board** | [M324 Team 4 Board (GitHub Projects)](https://github.com/orgs/m324-ap23a-team4/projects/1) |
+| **GitHub Organisation** | [github.com/m324-ap23a-team4](https://github.com/m324-ap23a-team4) |
+| **Zeitlogging** | Tymeprint (individuell) |
+| **Produktionsumgebung** | (wird in Phase A bereitgestellt) |
+| **Runbook** | [infra/README.md](https://github.com/m324-ap23a-team4/infra) (ab Phase A) |
