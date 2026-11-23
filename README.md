@@ -10,11 +10,13 @@ Dieses Dokument dient der Lehrperson und dem Team als zentraler Einstiegspunkt m
 | Bereich | Dokument / Ressource | Beschreibung / Zweck |
 |---|---|---|
 | **Kanban-Board** | 📌 [M324 Team 4 Board](https://github.com/orgs/m324-ap23a-team4/projects/1) | Live-Aufgabenverwaltung, Backlog & Sprints |
+| **Board-Tickets (P2)** | 🎯 [Aufgaben & Tickets](./docs/board-tickets-p2.md) | Vordefinierte Karten für P2 (US1–US3, Walking Skeleton, CI) |
 | **Meetings & Prozesse** | 📋 [D3: Meetings und Arbeitsprozesse](./docs/D3_Meetings_Prozesse.md) | Verbindliche Meeting-Struktur, Timeboxes & Rollen |
+| **Meeting-Protokolle** | 📅 [Protokoll 23.11.2026](./docs/meetings/2026-11-23.md) | Aktuelles Protokoll (Sprint 1 Check-In & Tagesplanung) |
 | **Meeting-Vorlage** | ✍️ [Meeting-Protokoll Vorlage](./docs/meeting-vorlage.md) | Standard-Template zum Kopieren für Check-Ins & Retros |
 | **Entscheidungen** | 🎫 [Ticket #1: Kickoff-Entscheidungen](https://github.com/m324-ap23a-team4/team/issues/1) | Begründete Architekturentscheidungen (closed) |
 | **Vereinbarung** | 🤝 [Vertrag Dev ↔ Ops](./docs/team-vereinbarung.md) | Schnittstellen, DoD, DoR & Arbeitsregeln |
-| **Retrospektiven** | ⚠️ [Retrospektiven (Deprecated)](./docs/retrospektiven.md) | Veraltet – Retros finden neu direkt in [meeting-vorlage.md](./docs/meeting-vorlage.md) statt |
+| **Retrospektiven** | ⚠️ [Retrospektiven (Deprecated)](./docs/retrospektiven.md) | Veraltet – Retros finden neu direkt im Meeting-Protokoll statt |
 
 ---
 
